@@ -1,0 +1,84 @@
+28/05/2025
+
+
+Query 1: Al cambio CA api
+https://www.google.com/search?client=opera&q=Al+cambio+CA+api&sourceid=opera&ie=UTF-8&oe=UTF-8&sei=fW83aOyUO5mVwbkPqvfg-A4
+https://alcambio.app/privacypolicy
+https://github.com/fcoagz/api-pydolarvenezuela					****
+https://pydolarve.org/apidocs/#/Dolar/get_api_v2__currency__changes
+https://pydolarve.org/apidocs/#/
+
+
+
+
+Postman 
+	GET https://pydolarve.org/api/v2/tipo-cambio
+	GET https://pydolarve.org/api/v2/dollar
+	GET https://pydolarve.org/api/v1/dollar?page=alcambio
+	GET https://pydolarve.org/api/v2/dollar/changes					[Require Token]
+
+
+
+Query 2: enparalelo oficial
+https://www.google.com/search?client=opera&q=enparalelo+oficial&sourceid=opera&ie=UTF-8&oe=UTF-8
+https://monitordolarvenezuela.com
+https://monitordolarvenezuela.com/api-dolar-venezuela
+
+
+Query 3: dolar venezuela API
+https://www.google.com/search?client=opera&q=dolar+venezuela+API&sourceid=opera&ie=UTF-8&oe=UTF-8
+https://github.com/fcoagz/api-pydolarvenezuela
+https://pydolarve.org
+https://docs.pydolarve.org
+https://dolarapi.com/docs/venezuela/operations/get-dolares.html
+https://dolarapi.com/docs/venezuela/operations/get-dolar-paralelo.html
+
+
+Query 4: python manipulacion de archivos csv
+https://www.google.com/search?client=opera&q=python+manipulacion+de+archivox+csv&sourceid=opera&ie=UTF-8&oe=UTF-8
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+29/05/2025
+
+
+Query 1: python handle csv files
+https://www.google.com/search?client=opera&q=python+handle+csv+files&sourceid=opera&ie=UTF-8&oe=UTF-8
+https://docs.python.org/3/library/csv.html
+https://www.geeksforgeeks.org/working-csv-files-python/
+https://realpython.com/python-csv/				[*****]
+https://www.codecademy.com/article/python-csv-file
+https://www.digitalocean.com/community/tutorials/parse-csv-files-in-python
+https://www.programiz.com/python-programming/csv
+https://www.youtube.com/watch?v=q5uM4VKywbA					Python Tutorial: CSV Module - How to Read, Parse, and Write CSV Files
+	https://www.youtube.com/@coreyms
+https://www.analyticsvidhya.com/blog/2021/08/python-tutorial-working-with-csv-file-for-data-science/
+https://www.sitepoint.com/python-csv-files/
+https://automatetheboringstuff.com/2e/chapter16/
+
+
+
+Steps to write into a CSV file:
+
+1. Validate if there exist this file 
+
+2. If not, create a new one with the following colum as: FECHA, HORA, BCV, PARALELO, PROMEDIO
+
+3. This CSV must append the value of the list for each execution using pandas
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+30/05/2025
+
+
+
+
+
+
+
+
+
+
+

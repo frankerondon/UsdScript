@@ -1,0 +1,50 @@
+--- Fecha ---
+{
+    "date": "jueves, 29 de mayo de 2025",
+    "time": "11:28:32 a.\u202fm."
+}
+
+
+
+--- Al Cambio Data ---
+{
+    "change": 2.82,
+    "color": "red",
+    "image": "https://res.cloudinary.com/dcpyfqx87/image/upload/v1729921479/monitors/public_id:epv.webp",
+    "last_update": "29/05/2025, 09:00 AM",
+    "percent": 1.99,
+    "price": 138.98,
+    "price_old": 141.8,
+    "symbol": "\u25bc",
+    "title": "Paralelo"
+}
+
+
+
+--- BCV Data ---
+{
+    "change": 0.73,
+    "color": "green",
+    "image": "https://res.cloudinary.com/dcpyfqx87/image/upload/v1729921477/monitors/public_id:united-states.webp",
+    "last_update": "29/05/2025, 12:00 AM",
+    "percent": 0.76,
+    "price": 96.53,
+    "price_old": 95.81,
+    "symbol": "\u25b2",
+    "title": "D\u00f3lar estadounidense"
+}
+
+
+
+--- Enparalelovzla Data ---
+{
+    "change": 3.91,
+    "color": "green",
+    "image": "https://res.cloudinary.com/dcpyfqx87/image/upload/v1729921479/monitors/public_id:epv.webp",
+    "last_update": "27/05/2025, 01:38 PM",
+    "percent": 2.82,
+    "price": 142.42,
+    "price_old": 138.51,
+    "symbol": "\u25b2",
+    "title": "EnParaleloVzla"
+}
