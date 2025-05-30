@@ -80,14 +80,23 @@ https://stackoverflow.com/questions/4485610/python-message-box-without-huge-libr
 https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messagebox
 https://mfcallahan.com/2022/11/10/display-a-message-box-with-python-without-using-a-library-or-other-dependency-windows/
 https://timgolden.me.uk/pywin32-docs/win32api__MessageBox_meth.html
+https://docs.python.org/3/library/tkinter.messagebox.html								******
 https://learn.microsoft.com/es-es/windows/win32/api/winuser/nf-winuser-messagebox
 https://pentestmag.com/unlocking-the-power-python-for-windows-api/
 https://www.apriorit.com/dev-blog/727-win-guide-to-hooking-windows-apis-with-python
 https://github.com/beeware/toga/discussions/1697
 
 
-
-
+Query 2: tkinter messagebox
+https://www.google.com/search?client=opera&q=tkinter+messagebox&sourceid=opera&ie=UTF-8&oe=UTF-8
+https://recursospython.com/guias-y-manuales/cuadros-de-dialogo-messagebox-en-tkinter/#google_vignette
+https://docs.python.org/es/3.10/library/tkinter.messagebox.html
+https://docs.python.org/3/library/tkinter.messagebox.html
+https://www.geeksforgeeks.org/python-tkinter-messagebox-widget/
+https://www.tutorialesprogramacionya.com/pythonya/detalleconcepto.php?punto=69&codigo=69&inicio=60#google_vignette
+https://www.tutorialspoint.com/python/tk_messagebox.htm
+https://stackoverflow.com/questions/66585702/formatting-text-in-a-tkinter-messagebox-in-two-columns
+https://docs.python.org/3.9/library/tkinter.messagebox.html
 
 
 

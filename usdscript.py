@@ -5,6 +5,10 @@ import json
 import pandas as pd
 from openpyxl import load_workbook
 from openpyxl.styles import Border, Side
+import tkinter as tk
+from tkinter import *
+from tkinter import messagebox as mb
+
 
 #Ejecucion 10:00 AM && 02:00 PM
 
@@ -249,40 +253,51 @@ if __name__ == "__main__":
 
     toExcelFile = [formatted_date_for_excel, hour_for_excel, bcv_price_for_excel, par_price_for_excel, avg_price_for_excel]
 
-    print(f"Data prepared for Excel: {toExcelFile}")
+    #print(f"Data prepared for Excel: {toExcelFile}")
     
     # --- Writing to XLSX using pandas ---
     # If the file Precio Dolar.xlsx is opened in Excel, it will raise an error when trying to write to it.
 
-    try:
-        # Create a DataFrame from the toExcelFile list
-        # Since toCSVFile is a single row, it needs to be a list of lists for the DataFrame constructor
-        df_new_row = pd.DataFrame([toExcelFile], columns=XLSX_HEADERS)
+    loop = True 
 
-        file_exists = os.path.isfile(XLSX_FILENAME)
+    while(loop):
+        try:
+            # Create a DataFrame from the toExcelFile list
+            # Since toCSVFile is a single row, it needs to be a list of lists for the DataFrame constructor
+            df_new_row = pd.DataFrame([toExcelFile], columns=XLSX_HEADERS)
 
-        if not file_exists:
-            # File does not exist, write with header
-            df_new_row.to_excel(XLSX_FILENAME, index=False, header=True, engine='openpyxl')
-            print(f"Excel file '{XLSX_FILENAME}' created with headers and data.")
-        
-        else:
-        
-            # File exists, read it, append new data, and write back
-            try:
-                df_existing = pd.read_excel(XLSX_FILENAME, engine='openpyxl')
-                df_combined = pd.concat([df_existing, df_new_row], ignore_index=True)
-                df_combined.to_excel(XLSX_FILENAME, index=False, header=True, engine='openpyxl')
+            file_exists = os.path.isfile(XLSX_FILENAME)
 
-            except FileNotFoundError: 
-                # Should not happen if file_exists is true, but as a safeguard
+            if not file_exists:
+                # File does not exist, write with header
                 df_new_row.to_excel(XLSX_FILENAME, index=False, header=True, engine='openpyxl')
-                print(f"Excel file '{XLSX_FILENAME}' was not found despite check, created new.")            
+                #print(f"Excel file '{XLSX_FILENAME}' created with headers and data.")
+                mb.showinfo("Anuncio",f"Archivo de Excel '{XLSX_FILENAME}' creado con las cabeceras junto con los siguientes datos \n '{toExcelFile}'")
+            else:
             
-            print(f"Data appended to existing Excel file '{XLSX_FILENAME}'.")
+                # File exists, read it, append new data, and write back
+                try:
+                    df_existing = pd.read_excel(XLSX_FILENAME, engine='openpyxl')
+                    df_combined = pd.concat([df_existing, df_new_row], ignore_index=True)
+                    df_combined.to_excel(XLSX_FILENAME, index=False, header=True, engine='openpyxl')
 
-        # Apply styling after data is written
-        apply_excel_styling(XLSX_FILENAME)
+                except FileNotFoundError: 
+                    # Should not happen if file_exists is true, but as a safeguard
+                    df_new_row.to_excel(XLSX_FILENAME, index=False, header=True, engine='openpyxl')
+                    print(f"Excel file '{XLSX_FILENAME}' was not found despite check, created new.")            
+                
+                #print(f"Data appended to existing Excel file '{XLSX_FILENAME}'.")
+                mb.showinfo("Anuncio",f"Datos adjuntados en el archivo de Excel '{XLSX_FILENAME}' con el siguiente contenido \n '{toExcelFile}'")
+                
 
-    except Exception as e:
-        print(f"An error occurred during Excel writing or styling with pandas: {e}")
+            # Apply styling after data is written
+            apply_excel_styling(XLSX_FILENAME)
+            loop = False
+            
+
+        except Exception as e:
+            #print(f"An error occurred during Excel writing or styling with pandas: {e}")
+            mb.showerror("Error",f"An error occurred during Excel writing or styling with pandas: {e}")
+            mb.showwarning("Advertencia",f"Por favor cierre el archivo de Excel '{XLSX_FILENAME}' si está abierto y vuelva a intentarlo.")
+            
+
