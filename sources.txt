@@ -73,7 +73,17 @@ Steps to write into a CSV file:
 30/05/2025
 
 
-
+Query 1: windows api messagebox python
+https://www.google.com/search?q=windows+api+messagebox+python&client=opera&hs=GV6&sca_esv=3cef0c337813fef5&ei=0c85aM-NO4SPwbkP172P8A4&ved=0ahUKEwiPutaawsuNAxWERzABHdfeA-4Q4dUDCBA&uact=5&oq=windows+api+messagebox+python&gs_lp=Egxnd3Mtd2l6LXNlcnAiHXdpbmRvd3MgYXBpIG1lc3NhZ2Vib3ggcHl0aG9uMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRifBTIFECEYnwUyBRAhGJ8FMgUQIRifBTIFECEYnwVI9g9Q8QJYlgtwAXgBkAEAmAGLAaABzwaqAQMwLje4AQPIAQD4AQGYAgigAsIHwgIKEAAYsAMY1gQYR8ICBhAAGBYYHsICBRAAGO8FwgIIEAAYgAQYogSYAwCIBgGQBgiSBwMxLjegB5wqsgcDMC43uAesB8IHBTItMi42yAdW&sclient=gws-wiz-serp
+https://www.reddit.com/r/Python/comments/ysfo1x/something_cool_i_learned_about_python_a_windows/
+https://stackoverflow.com/questions/4485610/python-message-box-without-huge-library-dependency
+https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messagebox
+https://mfcallahan.com/2022/11/10/display-a-message-box-with-python-without-using-a-library-or-other-dependency-windows/
+https://timgolden.me.uk/pywin32-docs/win32api__MessageBox_meth.html
+https://learn.microsoft.com/es-es/windows/win32/api/winuser/nf-winuser-messagebox
+https://pentestmag.com/unlocking-the-power-python-for-windows-api/
+https://www.apriorit.com/dev-blog/727-win-guide-to-hooking-windows-apis-with-python
+https://github.com/beeware/toga/discussions/1697
 
 
 
