@@ -272,7 +272,7 @@ if __name__ == "__main__":
                 # File does not exist, write with header
                 df_new_row.to_excel(XLSX_FILENAME, index=False, header=True, engine='openpyxl')
                 #print(f"Excel file '{XLSX_FILENAME}' created with headers and data.")
-                mb.showinfo("Anuncio",f"Archivo de Excel '{XLSX_FILENAME}' creado con las cabeceras junto con los siguientes datos \n '{toExcelFile}'")
+                mb.showinfo("Anuncio",f"Archivo de Excel '{XLSX_FILENAME}' creado con las columnas \n'{XLSX_HEADERS}' \njunto con los siguientes datos \n '{toExcelFile}'")
             else:
             
                 # File exists, read it, append new data, and write back
