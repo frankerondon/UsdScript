@@ -179,6 +179,21 @@ Beautiful Soup
 05/06/2025
 
 
+Como las APIs de Pydolarve y DolarAPI estan dando una referencia del paralelo completamente outdated o desincronizada una alternativa es usar la API de Binance para obtener los precios del dolar del mercado P2P
+
+Query 1: binance api p2p
+https://www.google.com/search?q=binance+api+p2p&client=opera&hs=sTN&sca_esv=503f905593dc3832&ei=mRRCaMmQJuqQwbkPl7LZ8Ak&start=10&sa=N&sstk=Ac65TH5g75UhvpK2CnjYozECPkqcnLtpmhF8NHQsOBYbFwHVq1uZ5pNx0XmpRGkbV2HLGU2n6fETjov9p5_9k65OwIcORbaT2Oviyw&ved=2ahUKEwiJwdT2pNuNAxVqSDABHRdZFp4Q8NMDegQICRAW&biw=1226&bih=633&dpr=1
+https://www.binance.com/es/binance-api
+https://stackoverflow.com/questions/67793326/api-binance-p2p-i-only-access-a-part-only-the-buy-and-not-all-of-it-buy-and-s
+https://github.com/pydevtop/binance_p2p_bot
+https://gist.github.com/mcasaccio/371c1406e2df20f2bd9f6383455c951f
+https://www.youtube.com/watch?v=BSgWx7Vs_Oo					⚡ Api Binance p2p Arbitraje en tiempo real 🔥Estrategia🔥
+	https://www.youtube.com/@Metavic96
+
+https://dev.binance.vision/t/does-binance-have-an-api-for-up-to-date-p2p-ads/16277/4
+	https://developers.binance.com/docs/binance-spot-api-docs
+
+https://rapidapi.com/zigzagway/api/binance-p2p-api
 
 
 
