@@ -146,3 +146,42 @@ https://monitordolarvenezuela.com
 https://github.com/enzonotario/esjs-dolar-api
 https://www.reddit.com/r/devsarg/comments/1c05aen/necesito_una_api_para_el_valor_del_dólar/
 https://docs.pydolarve.org
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+03/06/2025
+
+
+Query 1: python library tor routing
+https://www.google.com/search?client=opera&q=python+library+tor+routing&sourceid=opera&ie=UTF-8&oe=UTF-8
+https://medium.com/@jasonrigden/using-tor-with-the-python-request-library-79015b2606cb
+https://pypi.org/project/requests-tor/
+https://github.com/torpyorg/torpy
+https://infosecwriteups.com/configuring-tor-with-python-1a90fc1c246f					*****
+https://stackoverflow.com/questions/30286293/make-requests-using-python-over-tor		*****
+https://github.com/torproject/stem														*****
+https://awjunaid.com/python/connecting-to-the-tor-network-from-python/?amp=1
+https://pypi.org/project/torswitch/
+https://ohyicong.medium.com/how-to-create-tor-proxy-with-python-cheat-sheet-101-3d2d619a1d39			*****
+
+
+Query 2: python library tor routing
+https://www.google.com/search?client=opera&q=python+library+tor+routing&sourceid=opera&ie=UTF-8&oe=UTF-8
+https://awjunaid.com/python/connecting-to-the-tor-network-from-python/?amp=1
+https://scrapingant.com/blog/web-scraping-tor-python									*****
+
+
+Beautiful Soup 
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+05/06/2025
+
+
+
+
+
+
+
+
